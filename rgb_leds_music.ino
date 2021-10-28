@@ -1,3 +1,13 @@
+/*
+ * Arduino takes voltage readings with a microphone sensor. Whenever the sensor detects sound, the voltage will drop and with that reading
+ * a color will be displayed on a strip of 300 RGB leds. Lighting will stimulate the soundwave of the music that's being played.
+ * 
+ * Using FastLED library: http://fastled.io/
+ * 
+ * 10/21/21
+ */
+
+
 #include <FastLED.h>
 #define LED_PIN 2 // DATA PIN 
 #define NUM_LEDS 300 // TOTAL NUMBER OF LEDS TO USE
